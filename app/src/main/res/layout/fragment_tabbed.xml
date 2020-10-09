@@ -5,40 +5,7 @@
     android:id="@+id/tab_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.tabbed.TabbedFragment">
-
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tab_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tab_first"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tab_first_text" />
-
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tab_tuesday"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tab_second_text" />
-
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tab_wednesday"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tab_third_text" />
-
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tab_addition"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tab_addition_text" />
-    </com.google.android.material.tabs.TabLayout>
+    tools:context=".ui.tabbed.TabbedActivity">
 
     <Button
         android:id="@+id/to_home"
@@ -49,4 +16,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
